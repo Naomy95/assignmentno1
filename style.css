@@ -1,0 +1,81 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0%;
+    background-color: whitesmoke;
+
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 20px;
+}
+.red_color{
+    color:blueviolet;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width img{
+width: 80%;
+padding-top: 10%;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.button{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background-image: linear-gradient(blue, skyblue);
+    background-color: blue;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.top{
+    background-image: url(img/background3.png);
+    background-repeat: no-repeat;
+}
+.middle{
+    background-image: url(img/bc3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 10px grey;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-top: 5%;
+
+}
+.end{
+    background-image: url(img/bc4.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#full-time-wizard{
+    border-image: linear-gradient(skyblue, blue);
+    border-image-slice: 1;
+    border-left: 10px solid;;
+}
+#v-killer{
+    border-image: linear-gradient(pink,red);
+    border-image-slice: 1;
+    border-left: 10px solid;;
+}
+footer p{
+    text-align: center;
+}
+#header{
+    background-color: blue;
+    width: 100%;
+}
